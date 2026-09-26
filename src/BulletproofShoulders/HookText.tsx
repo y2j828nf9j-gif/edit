@@ -56,7 +56,7 @@ export const HookText: React.FC<{
             fontWeight: 900,
             fontSize: 76,
             lineHeight: 1.02,
-            color: palette.accent,
+            color: palette.lime,
             textTransform: "uppercase",
             letterSpacing: -1,
             textShadow: "0 6px 30px rgba(0,0,0,0.55)",

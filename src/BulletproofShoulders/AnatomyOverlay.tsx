@@ -26,8 +26,8 @@ export const AnatomyCorner: React.FC<{ highlight: CuffHighlight; label: string }
         transform: `translateX(${(1 - in_) * 30}px)`,
         background: palette.panel,
         borderRadius: 20,
-        border: `1px solid ${palette.muted}`,
-        boxShadow: "0 18px 40px rgba(0,0,0,0.45)",
+        border: `1px solid ${palette.cyanDeep}`,
+        boxShadow: `0 18px 40px rgba(0,0,0,0.45), 0 0 22px rgba(91,232,255,0.18)`,
         padding: "10px 8px 6px 8px",
         boxSizing: "border-box",
       }}

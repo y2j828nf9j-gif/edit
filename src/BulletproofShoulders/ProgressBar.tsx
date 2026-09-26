@@ -22,7 +22,7 @@ export const ProgressBar: React.FC = () => {
         style={{
           width: `${pct}%`,
           height: "100%",
-          background: palette.accent,
+          background: palette.lime,
         }}
       />
     </div>

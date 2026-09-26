@@ -1,5 +1,5 @@
 export const palette = {
-  bg: "#0a0d12",
+  bg: "#05080a",
   panel: "#12161de6",
   ink: "#f5f7fa",
   inkDim: "#b8c0cc",
@@ -10,6 +10,13 @@ export const palette = {
   muted: "#3a4048",
   mutedFill: "#2a2e35",
   bone: "#c9cdd4",
+  // cinematic-grade additions
+  cyan: "#5be8ff",
+  cyanDeep: "#0fb8d6",
+  lime: "#a6ff2e",
+  limeDeep: "#6fc700",
+  gradeShadow: "#03202b",
+  gradeHighlight: "#ffd9a8",
 };
 
 const hexToRgb = (hex: string) => {
